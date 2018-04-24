@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Major Works</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Body Content -->
+    <div class="container-fluid" style="height:3px;background-color: #070185;margin-bottom: 35px;"></div>
+    <!--Header-->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xs-6"><a class="logo" href="#"><img src="img/logo.png"></div>
+          <div class="col-lg-6 col-xs-6">
+            <div class="col-lg-6 col-lg-push-5 col-md-6 col-md-push-5 ">
+              <div class="pull-right"><a href="#" class="button">Stuff Login</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </header>
+     <!--Navbar-->
+      <nav class="navbar navbar-default" style="margin-top: 35px;">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="l1"><a href="index.html">Home</a></li>
+              <li class="l1" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+                <ul class="dropdown-menu" style="padding: 20px; font-size:20px; ">
+                  <li><a href="organizational.html">Organizational Abstract</a></li>
+                  <li><a href="logistics.html">Logistics</a></li>
+                  <li><a href="hr.html">Human Resources</a></li>
+                  <li><a href="reports.html">Reports</a></li>
+                </ul>
+              </li>
+              <li class="l1"><a href="major_works.html">Major Works</a></li>
+              <li class="l1"><a href="workinprogress.html">Works In Progress</a></li>
+              <li class="l1"><a href="upcoming_works.html">Upcoming Works</a></li>
+              <li class="l1"><a href="we_offer.html">We Offer</a></li>
+              <li class="l1"><a href="#go_to">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Table Sort Option Start-->
+      <div class="container">
+      	<div class="row" style="margin-bottom: 25px;margin-top: 45px;">
+          <div class="col-md-2 col-sm-4 col-xs-5""><h3 class="h3_offer" style="color:#2e41eb;margin: auto;padding: auto;">Major Works</h3></div>
+          <div class="col-md-10 col-sm-8"><hr class ="hr1" style="border-top: 2px solid #ebecf2;margin-top: 13px;"></div>
+          <div class="col-md-12 col-xs-12"><h4>DATA's major work at a glance</h4></div>
+	    </div>
+
+        <div class="row">
+        	<div class="col-md-6 col-sm-4 col-xs-12">
+        	  <form class="form-inline">
+        	  	<div class="form-group" style="display: inline-block; width: 100%;">
+		            <label style="margin-right: 7px;">Sort By </label>
+		            <select class="form-control" style="margin-top: 15px;">
+			            <option>Serial No</option>
+			            <option>Project Type</option>
+			            <option>Tagline</option>
+		            </select>
+		            <a href="#"><span class="glyphicon glyphicon-arrow-up" style="margin-left: 5px;"></span></a>
+		        </div>
+        	  </form>
+        	</div>
+        	<div class="col-md-2 col-sm-3 col-xs-12">
+        	  <form class="form-inline">
+        	  	<div class="form-group" style="display: inline-block;width: 100%;">
+		            <label style="margin-right: 7px;">Show</label>
+		            <select class="form-control" style="margin-top: 15px;">
+			            <option>5</option>
+			            <option>10</option>
+			            <option>15</option>
+			            <option>20</option>
+			            <option>25</option>
+			            <option>30</option>
+		            </select>
+		        </div>
+        	  </form>
+        	</div>
+        	<div class="col-md-4 col-sm-5 col-xs-12" style="margin-top: 15px;">
+        	  <form class="form-inline pull-right">
+        	  	<div class="form-group" style="display: inline-block;">
+		            <label style="margin-right: 7px;">Per Page</label>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"><span class="glyphicon glyphicon-triangle-left"></span></button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"> 1 </button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"> 2 </button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"> 3 </button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"><span class="glyphicon glyphicon-triangle-right"></span></button>
+		            
+		        </div>
+        	  </form>
+        	</div>
+    	</div>
+
+    	<!--Table Content Start-->
+    	<div class="row">
+    		<div class="col-xs-12">
+    			<div class="table-responsive">
+                    <table summary="This table shows how to create responsive tables using Bootstrap's default functionality" class="table table-bordered table-hover">
+                        <thead class="text-center">
+                            <tr>
+                                <th class="count_fb">#</th>
+                                <th class="Project_fb">Project</th>
+                                <th class="project-type_fb">Project Type</th>
+								<th class="survey-tag_fb">Survey Tag</th>
+                                <th class="time-period_fb">Time Period</th>
+                                <th class="funding_fb">Funding Agency</th>
+                                <th class="associates_fb">Associates / Researchers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="count">1</td>
+                                <td style="cursor:pointer" class="Project"><a class="item">Bangladesh Programmatic Poverty Analysis Program(BPPA):Urban SlumsSurvey(USS)</a></td>
+                                <td class="project-type">Baseline</td>
+								<td class="survey-tag">Health, Education</td>
+                                <td class="time-period">Upcoming May - June 2016</td>
+                                <td class="funding">The World Bank,Sole Sourced</td>
+                                <td class="associates">Data Analysis And Technical Assistance Limited and The World Bank. </td>
+                            </tr>
+                            <tr>
+                                <td class="count">2</td>
+                                <td class="Project" style="cursor:pointer"><a class="item">Alive &Thrive Follow-up Survey 2016.</a></td>
+                                <td class="project-type">Baseline</td>
+								<td class="survey-tag">Health, Education</td>
+                                <td class="time-period">Ongoing April - August 2016</td>
+                                <td class="funding">IFPRI, Sole Sourced</td>
+                                <td class="associates">Data Analysis And Technical Assistance Limited, and International Food Policy Research Institute (IFPRI). </td>
+                            </tr>
+                            <tr>
+                                <td class="count">3</td>
+                                <td class="Project" style="cursor:pointer"><a class="item">Bangladesh Aquaculture and Horticulture for Nutrition Research (BAHNR) , Baseline  There will be three (3) follow up rounds of suveys. </a></td>
+                                <td class="project-type">Midline</td>
+								<td class="survey-tag">Education</td>
+                                <td class="time-period">Ongoing October 2015 - June 2016</td>
+                                <td class="funding">Tufts University Nutrition Innovation Lab. Sole Sourced </td>
+                                <td class="associates">Tufts University Nutrition Innovation Lab and Data Analysis And Technical Assisted Limited. </td>
+                            </tr>
+                            <tr>
+                                <td class="count">4</td>
+                                 <td class="Project" style="cursor:pointer"><a class="item">Safety Nets Systems for Poorest (SNSP), Follow up round</a></td>
+                                <td class="project-type">Midline</td>
+								<td class="survey-tag">Development</td>
+                                <td class="time-period">January - April 2016</td>
+                                <td class="funding">The World Bank.Sole sourced </td>
+                                <td class="associates">Data Analysis And Technical Assistance Limited and The World Bank.</td>
+							</tr>
+                    </table>
+                </div>
+    		</div>
+    	</div>
+
+    	<div class="row">
+    		<div class="col-sm-6 col-xs-12">
+    			<p>Showing 1-30 of 135 </p>
+    		</div>
+    		<div class="col-sm-6 col-xs-12">
+    			<form class="form-inline pull-right">
+        	  	<div class="form-group" style="display: inline-block;">
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"><span class="glyphicon glyphicon-triangle-left"></span></button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"> 1 </button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"> 2 </button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;"> 3 </button>
+			      	<button type="submit" class="btn btn-default btn-clear" style="height: 40px;">Next <span class="glyphicon glyphicon-triangle-right"></span></button>
+		            
+		        </div>
+        	  </form>
+    		</div>
+    	</div>
+      </div>
+     
+
+      <!--Footer-->
+      <div class="container">
+      	<section class="footer">
+	          <div>
+	              <div class="row" style="margin-bottom: 13px;"><hr class ="hr1" style="border-top: 2px solid #ebecf2;margin-top: 13px;"></div>
+	              <div class="row">
+	                  <div class="col-sm-2">
+	                      <div class="logo"> <img src="img/logo_bw.png" alt=""> </div>
+	                  </div>
+	                  <div class="col-sm-10">
+	                      <ul class="nav nav-pills pull-right">
+	                          <li role="presentation"><a href="#" class="padding-right-33">Home</a></li>
+	                          <li role="presentation"><a href="#">About Us</a></li>
+	                          <li role="presentation"><a href="#">Major Works</a></li>
+	                          <li role="presentation"><a href="#">Upcoming Works</a></li>
+	                          <li role="presentation"><a href="#">Works In Progress</a></li>
+	                          <li role="presentation"><a href="#">We Offer</a></li>
+	                          <li role="presentation"><a href="#">Contact Us</a></li>
+	                      </ul>
+	                  </div>  
+	              </div>
+	              <div class="row" style="margin-top: 13px;"><hr class ="hr1" style="border-top: 2px solid #ebecf2;margin-top: 13px;"></div>
+	              <div class="row">
+	                <div class="col-sm-8">
+	                      <p>Data Analysis and Technical Assistance Limited</p>
+	                      <p>All rights reserved. DATA holds the copyright to its publications and web pages but encourages duplication of these materials for noncommercial purposes. Proper citation is required. For problems or questions regarding this web contact [dataqzz@bangla.net OR info@databd.org].</p>
+	                  </div>
+	                  <div class="col-sm-4">
+	                    <p style="float: right;">Developed By <strong>Cryptenet<sup>&reg;</sup></strong></p>
+	                  </div>
+	              </div>
+	          </div>
+	     </section>	
+      </div>
+</body>
+</html>
